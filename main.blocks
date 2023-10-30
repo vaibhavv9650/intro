@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="zAqV3FyvG)`m+-SIu8%D">mySprite</variable><variable type="KIND_SpriteKind" id="rd_|`:$kR}SeuKvuRi1H">Player</variable><variable type="KIND_SpriteKind" id="rdSQi4obmwDAoAlY.%K1">Projectile</variable><variable type="KIND_SpriteKind" id="aot#XW%|%7zSFaPAa~XY">Food</variable><variable type="KIND_SpriteKind" id="t!Q/3kTV%/c0V6f.Fon}">Enemy</variable></variables><block type="pxt-on-start" id="k5u0:+MfPD}U{lVyz%cN" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="^4`(VPSaDkpi8=TlB;l7"><value name="color"><shadow type="colorindexpicker" id="CJTO[D{26!!5/#jC$j,S"><field name="index">6</field></shadow></value><next><block type="gameSplash" id="5Ttp?xlkZf2Der`|6.Oh"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="[VNLXBVG)Iesi:MJmu=Z"><field name="TEXT">My monkey better than yours</field></shadow></value><next><block type="variables_set" id="h15tZ.*^VEk*25vsZI._"><field name="VAR" id="zAqV3FyvG)`m+-SIu8%D">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="VuW8r}/pS{O_ZMRGIlt9"><value name="img"><shadow type="screen_image_picker" id="Ze:#m7drS-AYWY)x~X*`"><field name="img">img`
+. . . . f f f f f . . . . . . . 
+. . . f e e e e e f . . . . . . 
+. . f d d d d e e e f f . . . . 
+. c d d d d d d e e d d f . . . 
+. c d f d d f d e e b d c . . . 
+c d d f d d f d e e b d c . f f 
+c d e e d d d d e e f c . f e f 
+c d f f d c d e e e f . . f e f 
+. f c c c d e e e f f . . f e f 
+. . f f f f f e f e e f . f e f 
+. . . . f e f e f e f e f f f . 
+. . f f e f e e f f e e e f . . 
+. f e f f e e f f f e e e f . . 
+f d d b d d c f f f f f f b f . 
+f d d c d d d f . . f c d d f . 
+. f f f f f f f . . . f f f . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Ze:#m7drS-AYWY)x~X*`"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="n]kjY_QMd)?0[_CBPzTm"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block><block type="keyonevent" id="Iq!GED$QkgG5;tNt?WD5" x="0" y="260"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="startEffectOnSprite" id="adgm[qsLW=wo,xMM,bq$"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="effect">effects.confetti</field><value name="sprite"><block type="variables_get" id="JjZ)k/C`)v+Ky`g60]U!"><field name="VAR" id="zAqV3FyvG)`m+-SIu8%D">mySprite</field></block></value><value name="duration"><shadow type="timePicker"></shadow><block type="device_random" id="o}9Rutm:F5X~dJj{cy%4"><value name="min"><shadow type="math_number" id="p{_d$vqq~nx#@0(#D]jW"><field name="NUM">100</field></shadow></value><value name="limit"><shadow type="math_number" id="get%P_m89=z#?34.M8d!"><field name="NUM">600</field></shadow></value></block></value></block></statement></block></xml>
